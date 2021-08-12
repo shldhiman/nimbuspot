@@ -12,10 +12,13 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/common.js"></script>
-
 </head>
 
 <body class="pace-done">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KK53LP4" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
     <aside class="admin-sidebar">
         <div class="admin-sidebar-brand">
             <p><img src="assets/company_logo/Nimbus_Logo.jpg" width="100" alt="Nimbus Logo"></p>
@@ -252,323 +255,115 @@
                 </div>
             </div>
             <div class="container-fluid pull-up">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="card m-b-30">
+                            <div class="card-header border-bottom">
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <h4 class="m-b-0">
+                                            <i class="mdi mdi-apps"></i> Addons
+                                        </h4>
+                                    </div>
+                                    <div class="col-md-6 text-right">
 
-                <style>
-                    .row_scroll {
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-body bg-secondary">
 
-                        max-height: 350px;
-                        overflow-y: scroll;
-                        /* Add the ability to scroll */
-                    }
+                                <div class="row">
+                                    <div class="col-md-6 col-lg-4">
+                                        <a href="allocation">
+                                            <div class="card m-b-30">
+                                                <div class="card-header bg-dark text-white">
+                                                    <h5>Order Allocation Engine</h5>
+                                                </div>
+                                                <div class="card-body m-t-20">
+                                                    <h6 class="card-subtitle mb-2 text-muted">Set Courier priorities for
+                                                        your shipments</h6>
+                                                    <p class="text-right"><button class="btn btn-dark"><i
+                                                                class="mdi mdi-arrow-right"></i></button></p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
 
-                    /* Hide scrollbar for Chrome, Safari and Opera */
-                    .row_scroll::-webkit-scrollbar {
-                        display: none;
-                    }
+                                    <div class="col-md-6 col-lg-4">
+                                        <a href="apps/checkouts/settings">
+                                            <div class="card m-b-30">
+                                                <div class="card-header bg-dark text-white">
+                                                    <h5>Abandoned Checkouts</h5>
+                                                </div>
+                                                <div class="card-body m-t-20">
+                                                    <h6 class="card-subtitle mb-2 text-muted">Manage your shopify
+                                                        abandoned checkouts</h6>
+                                                    <p class="text-right"><button class="btn btn-dark"><i
+                                                                class="mdi mdi-arrow-right"></i></button></p>
+                                                </div>
+                                            </div>
+                                        </a>
 
-                    /* Hide scrollbar for IE and Edge */
-                    .row_scroll {
-                        -ms-overflow-style: none;
-                    }
-                </style>
+                                    </div>
+                                    <div class="col-md-6 col-lg-4">
+                                        <a href="apps/aftership">
+                                            <div class="card m-b-30">
+                                                <div class="card-header bg-dark text-white">
+                                                    <h5>Aftership</h5>
+                                                </div>
+                                                <div class="card-body m-t-20">
+                                                    <h6 class="card-subtitle mb-2 text-muted">Personalized Tracking Page
+                                                    </h6>
+                                                    <p class="text-right"><button class="btn btn-dark"><i
+                                                                class="mdi mdi-arrow-right"></i></button></p>
+                                                </div>
+                                            </div>
+                                        </a>
 
-                <section class="admin-content">
-                    <div class=" m-b-10">
-                        <div class="container-fluid">
-                            <div class="row p-b-60 p-t-60"
-                                style="padding-bottom: 60px !important;padding-top: 0px !important;">
-                                <div class="col-md-3 ">
-                                    <form method="get" action="https://ship.nimbuspost.com/dash"
-                                        class="date_filter_form">
-                                        <div class="form-group">
-                                            <input type="text" autocomplete="off" data-start-date="2021-07-13"
-                                                data-end-date="2021-08-12"
-                                                class="form-control date-range-picker col-sm-12">
-                                            <input type="hidden" autocomplete="off" id="date-min"
-                                                name="filter[start_date]" value="2021-07-13" placeholder="from">
-                                            <input type="hidden" autocomplete="off" id="date-max"
-                                                name="filter[end_date]" value="2021-08-12" placeholder="to">
-                                        </div>
-                                    </form>
+                                    </div>
+
+
+
+                                    <div class="col-md-6 col-lg-4">
+                                        <a href="apps/ivr">
+                                            <div class="card m-b-30">
+                                                <div class="card-header bg-dark text-white">
+                                                    <h5>IVR</h5>
+                                                </div>
+                                                <div class="card-body m-t-20">
+                                                    <h6 class="card-subtitle mb-2 text-muted">Automated call solution
+                                                    </h6>
+                                                    <p class="text-right"><button class="btn btn-dark"><i
+                                                                class="mdi mdi-deskphone"></i></button></p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+
+                                    <div class="col-md-6 col-lg-4">
+                                        <a href="apps/ivrcod">
+                                            <div class="card m-b-30">
+                                                <div class="card-header bg-dark text-white">
+                                                    <h5>COD Order Confirmation</h5>
+                                                </div>
+                                                <div class="card-body m-t-20">
+                                                    <h6 class="card-subtitle mb-2 text-muted">Confirm COD orders via
+                                                        automated IVR Call</h6>
+                                                    <p class="text-right"><button class="btn btn-dark"><i
+                                                                class="mdi mdi-speaker-wireless"></i></button></p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+
 
                                 </div>
 
-                                <div class="col-md-3">
-
-                                </div>
-                                <div class="col-md-6 text-right text-white p-b-30">
-                                    <h2>Dashboard</h2>
-                                </div>
 
                             </div>
                         </div>
                     </div>
-                    <div class="container-fluid pull-up">
-                        <div class="row">
-
-                            <div class="col-lg-12">
-
-                                <div class="row">
-                                    <div class="col-sm-3">
-                                        <div class="card text-white bg-success mb-3">
-                                            <div class="card-body">
-                                                <h2 class="card-title">1</h2>
-                                                <p class="card-text">Total Shipments<br />
-                                                    (Total forward shipments)</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-3">
-
-                                        <div class="card text-white bg-info mb-3">
-                                            <div class="card-body">
-                                                <h2 class="card-title">0 (0%)</h2>
-                                                <p class="card-text">Delivered Shipments<br />
-                                                    (Total forward delivered orders)</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-3">
-                                        <div class="card text-white bg-primary mb-3">
-                                            <div class="card-body">
-                                                <h2 class="card-title">&#8377;0</h2>
-                                                <p class="card-text">Total Revenue<br />
-                                                    (Value of delivered orders)</p>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-sm-3">
-                                        <div class="card text-white bg-secondary mb-3">
-                                            <div class="card-body">
-                                                <h2 class="card-title">0 (0%)</h2>
-                                                <p class="card-text">Total RTO<br />
-                                                    (Orders returned to origin)</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-
-                                <div class="row">
-                                    <div class="col-sm-6">
-
-                                        <div class="card m-b-30">
-                                            <div class="card-body">
-                                                <canvas id="myChart3" class="build-chart" chart-data="myChart3"
-                                                    height="200"></canvas>
-
-                                                <script>
-                                                    var myChart3 = {
-                                                        type: 'pie',
-                                                        data: {
-                                                            labels: ['Xpressbees Air'],
-                                                            datasets: [{
-                                                                label: 'Courier',
-                                                                data: [1],
-                                                                borderWidth: 1,
-                                                                backgroundColor: ['#19b5fe', '#4d148c', '#0c9', '#f7bc06', '#95aac9', '#20c997', '#7140D1']
-                                                            }]
-                                                        },
-                                                        options: {
-                                                            title: {
-                                                                display: true,
-                                                                text: 'Courier Wise Load'
-                                                            },
-                                                            tooltips: {
-                                                                mode: 'index',
-                                                                intersect: false
-                                                            },
-                                                            responsive: true,
-                                                        }
-                                                    };
-                                                </script>
-                                            </div>
-                                        </div>
-                                    </div>
-
-
-                                    <div class="col-sm-6">
-                                        <div class="card">
-                                            <div class="card-header bg-dark text-white">
-                                                <h5>Courier Wise Status</h5>
-                                            </div>
-                                            <div class="card-body row_scroll">
-
-                                                <div class="table-responsive">
-                                                    <table class="table table-hover table-sm">
-                                                        <thead>
-                                                            <tr>
-                                                                <th>Courier</th>
-                                                                <th>Total</th>
-                                                                <th>Unshipped</th>
-                                                                <th>Pending Pickup</th>
-                                                                <th>In Transit</th>
-                                                                <th>Delivered</th>
-                                                                <th>RTO</th>
-                                                            </tr>
-                                                        </thead>
-                                                        <tbody>
-                                                            <tr>
-                                                                <td>Xpressbees Air</td>
-                                                                <td>1</td>
-                                                                <td>0</td>
-                                                                <td>1</td>
-                                                                <td>0</td>
-                                                                <td>0</td>
-                                                                <td>0</td>
-
-                                                            </tr>
-                                                        </tbody>
-                                                    </table>
-                                                </div>
-
-                                            </div>
-                                        </div>
-
-
-                                    </div>
-                                    <div class="col-sm-6">
-                                        <div class="card m-b-30">
-                                            <div class="card-body">
-                                                <canvas id="myChart" class="build-chart" chart-data="myChart"
-                                                    height="200"></canvas>
-
-                                                <script>
-                                                    var myChart = {
-                                                        type: 'bar',
-                                                        data: {
-                                                            labels: ['NOIDA'],
-                                                            datasets: [{
-                                                                label: 'Shipments',
-                                                                data: [1],
-                                                                borderWidth: 1,
-                                                                backgroundColor: "#4082c4"
-                                                            }]
-                                                        },
-                                                        options: {
-                                                            title: {
-                                                                display: true,
-                                                                text: 'Top Destinations'
-                                                            },
-                                                            tooltips: {
-                                                                mode: 'index',
-                                                                intersect: false
-                                                            },
-                                                            responsive: true,
-                                                            scales: {
-                                                                yAxes: [{
-                                                                    ticks: {
-                                                                        beginAtZero: true
-                                                                    },
-                                                                }]
-                                                            }
-                                                        }
-                                                    };
-                                                </script>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-sm-6">
-                                        <div class="card m-b-">
-                                            <div class="card-body">
-                                                <canvas id="myChart4" class="build-chart" chart-data="myChart4"
-                                                    height="200"></canvas>
-
-                                                <script>
-                                                    var myChart4 = {
-                                                        type: 'pie',
-                                                        data: {
-                                                            labels: ['COD', 'Prepaid'],
-                                                            datasets: [{
-                                                                label: 'Courier',
-                                                                data: [1, 0],
-                                                                borderWidth: 1,
-                                                                backgroundColor: ['#7140D1', '#20c997', '#95aac9', '#f7bc06', '#0c9', '#4d148c', '#19b5fe']
-                                                            }]
-                                                        },
-                                                        options: {
-                                                            title: {
-                                                                display: true,
-                                                                text: 'Payment Wise Load'
-                                                            },
-                                                            tooltips: {
-                                                                mode: 'index',
-                                                                intersect: false
-                                                            },
-                                                            responsive: true,
-                                                        }
-                                                    };
-                                                </script>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-12">
-                                        <div class="card m-b-30">
-                                            <div class="card-header">
-                                                Product Wise Status
-                                            </div>
-                                            <div class="card-body">
-                                                <div class="table-responsive">
-                                                    <table class="table table-hover table-sm">
-                                                        <thead>
-                                                            <tr>
-                                                                <th>Product Name</th>
-                                                                <th>Product SKU</th>
-                                                                <th>Total Shipments</th>
-                                                                <th>Not Shipped</th>
-                                                                <th>Pending Pickup</th>
-                                                                <th>In Transit</th>
-                                                                <th>Delivered</th>
-                                                                <th>RTO</th>
-
-                                                            </tr>
-                                                        </thead>
-                                                        <tbody>
-                                                            <tr>
-                                                                <td>
-                                                                    <span data-toggle="tooltip" data-html="true"
-                                                                        title="Band">
-                                                                        Band </span>
-                                                                </td>
-                                                                <td>fn123456</td>
-                                                                <td>1</td>
-                                                                <td>0</td>
-                                                                <td>1</td>
-                                                                <td>0</td>
-                                                                <td>0 (0%)</td>
-                                                                <td>0 (0%)</td>
-
-                                                            </tr>
-                                                        </tbody>
-                                                    </table>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-
-
-
-                            </div>
-                        </div>
-
-                    </div>
-                </section>
-
-
-
-
-
-                <script>
-                    $(document).ready(function () {
-                        dateRangeFunction = function () {
-                            $('.date_filter_form').submit();
-                        }
-                    });
-                </script>
+                </div>
             </div>
         </section>
     </main>
@@ -626,6 +421,92 @@
                         </div>
                     </div>
 
+                    <form id="rzp_success_form" method="post"
+                        action="https://ship.nimbuspost.com/payment/response/razorpay">
+                        <input type="hidden" name="razorpay_payment_id" id="razorpay_payment_id">
+                    </form>
+
+                    <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+
+                    <script>
+                        function pay_razorpay(amount = 0, payment_id = false) {
+                            if (payment_id == '')
+                                return false;
+                            var options = {
+                                "key": "rzp_live_irALOJH2KE0dqk", // Enter the Key ID generated from the Dashboard
+                                "amount": amount * 100,
+                                "currency": "INR",
+                                "name": "Nimbuspost",
+                                "description": "Recharge wallet",
+                                "handler": rzp_response,
+                                "prefill": {
+                                    "name": "ashutosh bharti",
+                                    "email": "Corporate@aspriglobal.com",
+                                    "contact": "7007501941"
+                                },
+                                "notes": {
+                                    "payment_id": payment_id,
+                                },
+                                "theme": {
+                                    "color": "#12263f"
+                                }
+                            };
+                            var rzp1 = new Razorpay(options);
+                            rzp1.open();
+
+                        }
+
+                        function rzp_response(response) {
+                            document.getElementById('razorpay_payment_id').value = response.razorpay_payment_id;
+                            document.getElementById('rzp_success_form').submit();
+                        }
+                    </script>
+                    <script type="application/javascript"
+                        src="https://securegw.paytm.in/merchantpgpui/checkoutjs/merchants/Nimbus12832343631361.js"
+                        crossorigin="anonymous"></script>
+
+                    <script>
+                        function pay_Paytm(txnToken, orderId, amount) {
+                            var config = {
+                                "root": "",
+                                "flow": "DEFAULT",
+                                "merchant": {
+                                    "name": "Nimbuspost Private Limited",
+                                    "logo": "assets/img/logos/nimbus.png"
+                                },
+                                "style": {
+                                    "headerBackgroundColor": "#8dd8ff",
+                                    "headerColor": "#3f3f40"
+                                },
+                                "data": {
+                                    "orderId": orderId,
+                                    /* update order id */
+                                    "token": txnToken,
+                                    /* update token value */
+                                    "tokenType": "TXN_TOKEN",
+                                    "amount": amount /* update amount */
+                                },
+                                "handler": {
+                                    "notifyMerchant": function (eventName, data) {
+                                        console.log("notifyMerchant handler function called");
+                                        console.log("eventName => ", eventName);
+                                        console.log("data => ", data);
+                                    }
+                                }
+                            };
+
+                            if (window.Paytm && window.Paytm.CheckoutJS) {
+                                // initialze configuration using init method
+                                window.Paytm.CheckoutJS.init(config).then(function onSuccess() {
+                                    console.log('Before JS Checkout invoke');
+                                    // after successfully update configuration invoke checkoutjs
+                                    window.Paytm.CheckoutJS.invoke();
+                                }).catch(function onError(error) {
+                                    console.log("Error => ", error);
+                                });
+                            }
+                        }
+                    </script>
                 </div>
                 <div class="modal-footer">
 
@@ -744,13 +625,6 @@
             </div>
         </div>
     </div>
-
-
-    <script src="js/Chart.bundle.min.js"></script>
-    <script src="js/chartjs-data.js"></script>
-
-
-
 
 
 

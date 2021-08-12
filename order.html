@@ -13,13 +13,14 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/common.js"></script>
 
+
 </head>
 
 <body class="pace-done">
     <aside class="admin-sidebar">
         <div class="admin-sidebar-brand">
             <p>logo</p>
-            <img src="img/" style="margin-left: 25px;margin-top: 10px;" width="100" alt="Logo">
+            <img src="img/Logo" style="margin-left: 25px;margin-top: 10px;" width="100" alt="Logo">
             <div class="ml-auto">
             </div>
         </div>
@@ -37,7 +38,7 @@
                     <!--submenu-->
                 </li>
                 <li class="menu-item ">
-                    <a href="index.html" class="menu-link">
+                    <a href="orders/all" class="menu-link">
                         <span class="menu-label">
                             <span class="menu-name">Orders</span>
                         </span>
@@ -48,7 +49,7 @@
                     <!--submenu-->
                 </li>
                 <li class="menu-item ">
-                    <a href="shipment.html" class="menu-link">
+                    <a href="shipping/all" class="menu-link">
                         <span class="menu-label">
                             <span class="menu-name">Shipments
                             </span>
@@ -185,7 +186,7 @@
     <main class="admin-main">
         <!--site header begins-->
         <header class="admin-header">
-            <img src="img/" style="margin-left: 25px;margin-top: 10px;" width="100" alt="Logo">
+            <img src="img/Logo" style="margin-left: 25px;margin-top: 10px;" width="100" alt="Logo">
             <a href="#" class="sidebar-toggle" data-toggleclass="sidebar-open" data-target="body">
 
 
@@ -259,7 +260,7 @@
                                 <div class="row">
                                     <div class="col-md-4">
                                         <h4 class="m-b-0">
-                                            <i class="mdi mdi-checkbox-intermediate"></i> Shippment
+                                            <i class="mdi mdi-checkbox-intermediate"></i> Orders
                                         </h4>
                                     </div>
                                     <div class="col-md-8 text-right">
@@ -465,7 +466,54 @@
                                         </thead>
                                         <tbody>
                                             <tr>
-                                                <td colspan="12" class="text-center">No Records found</td>
+                                                <td></td>
+                                                <td>
+                                                    Custom </td>
+                                                <td><a style="color: #4c66fb;" target="_blank"
+                                                        href="orders/view/7836620">1627750478</a></td>
+                                                <td>Jul 31, 2021</td>
+                                                <td> <span data-toggle="tooltip" data-html="true" title=""
+                                                        data-original-title="band (fn123456)">
+                                                        band (fn123456) </span>
+                                                </td>
+                                                <td>1000</td>
+                                                <td>COD</td>
+                                                <td>
+                                                    <span data-toggle="tooltip" data-html="true" title=""
+                                                        data-original-title="Asad Swd<br>Sadw<br/>9999222121<br>noida <br>NOIDA<br>UP">
+                                                        Asad Swd </span>
+
+
+                                                </td>
+                                                <td>
+                                                    201301 </td>
+                                                <td>
+                                                    0.5 Kg
+                                                </td>
+                                                <td>
+                                                </td>
+                                                <td>
+                                                </td>
+                                                <td>
+                                                    <button type="button"
+                                                        class="btn btn-outline-success btn-sm">Booked</button>
+
+                                                    <button class="btn btn-sm btn-outline-info dropdown-toggle"
+                                                        role="button" id="dropdownMenuLink" data-toggle="dropdown"
+                                                        aria-haspopup="true" aria-expanded="false">
+                                                        <i class="mdi mdi-phone"></i>
+                                                    </button>
+
+                                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                                        <button class="dropdown-item make_ivr_call" data-toggle="modal"
+                                                            data-target=".make_ivr_call_modal"
+                                                            data-order-id="7836620">Call</button>
+                                                        <button class="dropdown-item view_ivr_history"
+                                                            data-toggle="modal" data-target=".ivr_history_modal"
+                                                            data-order-id="7836620">View History</button>
+                                                    </div>
+
+                                                </td>
                                             </tr>
                                         </tbody>
                                     </table>
@@ -507,5 +555,7 @@
     </main>
 
 
+
+</body>
 
 </html>
