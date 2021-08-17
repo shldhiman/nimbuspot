@@ -84,3 +84,26 @@ div#load_screen > div#loading {
   height: 24px;
   margin: 300px auto;
 }
+  .formerror {
+            color: #cc0033 !important;
+        }
+
+        .formerror p {
+            color: #cc0033 !important;
+            font-weight: 600;
+            font-family: sans-serif;
+        }
+
+        .formsuccess {
+            color: green !important;
+        }
+		.files input {
+    outline: 2px dashed #92b0b3;
+    outline-offset: -10px;
+    -webkit-transition: outline-offset .15s ease-in-out,background-color .15s linear;
+    transition: outline-offset .15s ease-in-out,background-color .15s linear;
+    padding: 20px 0 50px 35%;
+    text-align: center!important;
+    margin: 0;
+    width: 100%!important;
+}
