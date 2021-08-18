@@ -1,1 +1,0 @@
-$(".build-chart").each(function () { var thisID = $(this).attr('id'); var chartData = $(this).attr('chart-data'); var ctx = document.getElementById(thisID).getContext('2d'); var thisID = new Chart(ctx, eval(chartData)); });
